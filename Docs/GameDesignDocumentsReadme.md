@@ -36,3 +36,6 @@ You can find more in these sites:
 * [GameDocs](https://gamedocs.org/documents/)
 * [Mikaelsegedi's Blog](https://mikaelsegedi.blogspot.com/2015/02/game-design-document-from-famous-games.html)
 * [Gamescrye](https://gamescrye.com/resources/game-design-documents/)
+
+
+- From [https://github.com/serenitystudio/GameDesignDocuments]
