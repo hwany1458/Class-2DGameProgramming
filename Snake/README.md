@@ -14,3 +14,7 @@ A sub-genre of action video games where the player maneuvers the end of a growin
 
 - 뱀이 움직임을 제어하면서 아이템을 획득
 - 장애물 또는 플레이 오브젝트와 충돌하면 게임 오버
+
+### Scenes
+
+<img src="Figure6.png" style="width:420px"></img>
