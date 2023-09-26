@@ -2,19 +2,19 @@
 
 2D Game Programming (Game Content)
 
-## chapter 6 Snake Game
+## chapter 4 Rock Scissors Paper Game
 
-A sub-genre of action video games where the player maneuvers the end of a growing line, often themed as a snake. The player must keep the snake from colliding with both other obstacles and itself, which gets harder as the snake lengthens.
+Rock paper scissors is an intransitive hand game, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand.
 
 ### Platform
 
-- Windows, Android (Samsung Galaxy Note 10, iPhone 13 mini)
+- Windows, Android (Samsung Galaxy Note 10)
 
 ### 게임방법
 
-- 뱀이 움직임을 제어하면서 아이템을 획득
-- 장애물 또는 플레이 오브젝트와 충돌하면 게임 오버
+- 게임 플레이어는 컴퓨터와 가위바위보 내밀어 승부를 결정 
+- 컴퓨터는 (단순하게) 랜덤함수로 가위(1)바위(2)보(3)를 선택
 
 ### Scenes
 
-<img src="Figure6.png" style="width:420px"></img>
+<img src="FigureRSP1.png" style="width:420px"></img>
