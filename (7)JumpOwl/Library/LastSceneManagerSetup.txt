@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/JumpingOwlGameScene.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
