@@ -34,7 +34,7 @@ public class CsManager : MonoBehaviour {
 	//------------------------------
 	void Start ()
 	{
-		Screen.orientation = ScreenOrientation.Landscape;
+		Screen.orientation = ScreenOrientation.LandscapeLeft;
 		Screen.sleepTimeout = SleepTimeout.NeverSleep;
 		InitStage();
 	}
@@ -128,7 +128,7 @@ public class CsManager : MonoBehaviour {
 		// 배경음악 설정 
 		Camera.main.GetComponent<AudioSource>().clip = sndBack;
 		Camera.main.GetComponent<AudioSource>().loop = true;
-		Camera.main.audio.Play();
+		Camera.main.GetComponent<AudioSource>().Play();
 	}
 	
 	//------------------------------

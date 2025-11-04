@@ -10,6 +10,6 @@ public class CsSky : MonoBehaviour {
 	//------------------------------
 	void Update () {
 		float ofs = speed * Time.time;
-		transform.renderer.material.mainTextureOffset = new Vector2(ofs, 0);
+		transform.GetComponent<Renderer>().material.mainTextureOffset = new Vector2(ofs, 0);
 	}
 } // end of class 

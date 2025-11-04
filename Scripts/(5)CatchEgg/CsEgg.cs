@@ -54,12 +54,12 @@ public class CsEgg : MonoBehaviour {
 	IEnumerator EggBroken ()
 	{
 		// 계란 텍스쳐를 깨진 계란 이미지로 대치 
-		transform.renderer.material.mainTexture = (Texture)Resources.Load("egg_broken");
+		transform.GetComponent<Renderer>().material.mainTexture = (Texture)Resources.Load("egg_broken");
 		
 		// 계란 텍스처의 투명도를 낮춰서 화면에서 사라지는 효과 처리 
 		for (float i = 1f; i >= 0f; i -= 0.1f) {
 			Color color = new Vector4(1, 1, 1, i);			// i = Alpha  
-			transform.renderer.material.color = color;
+			transform.GetComponent<Renderer>().material.color = color;
 			yield return 0;									// 1프레임 양보 
 		}	
 		

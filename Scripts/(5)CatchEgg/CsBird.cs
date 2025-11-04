@@ -50,7 +50,7 @@ public class CsBird : MonoBehaviour {
 			
 			cellNum = (int) Mathf.Repeat(++cellNum, cellCnt);
 			float ofs = cellOfs * cellNum;	
-			transform.renderer.material.mainTextureOffset = new Vector2(ofs, 0);
+			transform.GetComponent<Renderer>().material.mainTextureOffset = new Vector2(ofs, 0);
 			
 			yield return new WaitForSeconds(frmDelay);
 			canNext = true;
@@ -74,9 +74,9 @@ public class CsBird : MonoBehaviour {
 		// transform.localScale = scale;
 		
 		// 매트리얼로 뒤집기 
-		Vector2 tiling = transform.renderer.material.mainTextureScale;
+		Vector2 tiling = transform.GetComponent<Renderer>().material.mainTextureScale;
 		tiling.x *= dirX;
-		transform.renderer.material.mainTextureScale = new Vector2(tiling.x, 1);
+		transform.GetComponent<Renderer>().material.mainTextureScale = new Vector2(tiling.x, 1);
 		
 		// 새의 초기 위치 설정 
 		transform.position = new Vector3(-13 * dirX, Random.Range(6, 9f), 4);
