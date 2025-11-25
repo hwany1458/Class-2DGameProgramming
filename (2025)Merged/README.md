@@ -20,4 +20,4 @@ Unity 2022.3.62f3(LTS) (https://unity.com/kr/releases/editor/whats-new/2022.3.62
 
 [4] Login Scene (Playfab)
 
-[5] Save Scores (Playfab)
+[5] Save Scores (Playfab) -- Example: Save your highest coin acquisition score in Snake Game
