@@ -12,8 +12,12 @@ Unity 2022.3.62f3(LTS) (https://unity.com/kr/releases/editor/whats-new/2022.3.62
 - Sliding Puzzle
 - Catching Egg
 
-(1) Merge Projects
-(2) Main Scene
-(3) Re-arrage Flow
-(4) Login Scene (Playfab)
-(5) Save Scores (Playfab)
+[1] Merge Projects
+
+[2] Main Scene
+
+[3] Re-arrage Flow
+
+[4] Login Scene (Playfab)
+
+[5] Save Scores (Playfab)
